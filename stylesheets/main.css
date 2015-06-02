@@ -1,0 +1,347 @@
+/********************
+
+Forget Me Lock
+
+Designed by: Mahir Kothary
+http://mahirk.me
+info@mahirk.me
+github.com/mahirk
+
+******************/
+/*************************
+Mobile
+**************************/
+
+@media only screen and (min-width : 320px) and (max-width : 768px) {
+  h1 {
+    font-size: 6em!important;
+  }
+  p.tagline {
+    font-size: 0.9em!important;
+  }
+
+  .topmenu span {
+    display: block!important;
+  }
+
+  h2:before, h2:after {
+    width: 15%!important;
+  }
+
+  .left {
+    float: none!important;
+  }
+
+  img.margin {
+    margin: 0;
+  }
+
+  .data {
+    text-align: center!important;
+  }
+
+  #contact .header {
+    display: block;
+    width: 95%!important;
+    margin-top: 5%;
+  }
+  #contact .header h4 {
+    display: none;
+  }
+
+  #menu .row, #menu .header {
+    width: 95%!important;
+    margin-left: 2%;
+  }
+  hld {
+    display: none;
+  }
+  .cusine img {
+    display: inline-block!important;
+  }
+}
+
+/***********
+Styles
+**********/
+
+#contact iframe {
+  width: 100%;
+}
+
+body {
+    width: 100%;
+    font-family: 'Raleway', calibri;
+    overflow-x:hidden;
+    margin: 0;
+    height:cover;
+    background-color:rgba(0, 0, 0,0);
+}
+
+#top>.bg {
+  z-index: -3;
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: #1190EB;
+}
+
+
+.jumbotron {
+  background: 0 0;
+  text-align: center;
+  height: 100%;
+  display: table;
+  width: 100%;
+  margin: 0;
+  padding: 2em 0;
+  position: relative;
+}
+
+.jumbotron#faq, .jumbotron#top {
+  margin: 0;
+  padding: 0;
+}
+
+
+.top {
+  text-align: center;
+  vertical-align: middle;
+  display: table-row;
+  float: none;
+}
+
+.submenu {
+  text-align: center;
+  vertical-align: baseline;
+  background: rgba(0,0,0,0.7);
+  padding: 1.0%;
+  width: 100%;
+  z-index: 99;
+}
+
+.cusine {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 1.0%;
+  color: #fff;
+}
+
+#menu {
+  color: #333;
+}
+
+.submenu span {
+  margin: 4%;
+  padding: 1.1%;
+}
+.submenu a {
+  margin-left: 3%;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.submenu span:hover {
+  background: rgba(33,33,33,0.5);
+  cursor: pointer;
+}
+
+.midcenter {
+  color: #fff;
+  display: table-footer-group;
+  text-align:center;
+}
+
+.white{
+  background: url('http://subtlepatterns.com/patterns/confectionary.png');
+}
+
+#data {
+  background: url('/images/banner1.jpg');
+}
+p.tagline {
+  font-size: 2.5em;
+  color: #fff;
+  margin-bottom: 1.5em;
+  line-height: 2;
+  text-transform: uppercase;
+  letter-spacing: 1.7px;
+}
+
+.jumbotron p, p {
+  font-size: .9em;
+  line-height: 1.8em;
+  margin: 20px 0;
+  font-weight: 400;
+}
+
+h4 {
+  font-size: 1.5em;
+  text-align:left;
+  -webkit-margin-after: 0.2em;
+}
+h1 {
+  font-family: 'Quicksand';
+  color: #fff;
+  letter-spacing: 0.7px;
+  font-weight: 100;
+  font-size: 8em;
+}
+
+
+h2 {
+  font-family: 'Quicksand';
+  font-size: 3em;
+  letter-spacing: 0.5px;
+}
+
+
+h2:before,
+h2:after {
+    border-top: 2px solid black;
+    display: block;
+    height: 2px;
+    content: " ";
+    width: 20%;
+    position: absolute;
+    left: 0;
+    top: 1.2em;
+}
+h2:after {
+   right: 0;
+   left: auto;
+}
+
+.menu-items {
+  margin: 2% 2%;
+  text-align: left;
+  display: none;
+}
+
+.show {
+  display: block!important;
+}
+
+.header {
+  display:inline-block;
+  vertical-align: top;
+  width: 23%;
+  margin-left: 2%;
+}
+
+.row {
+  display:inline-block;
+  width: 20%;
+}
+
+.right {
+  margin-top: 10%;
+  float: right;
+}
+
+h3 {
+  font-size: 2em;
+  font-family: 'Raleway';
+}
+
+
+#contact .row {
+  width: 40%;
+  text-align: left;
+}
+
+.number {
+  font-size: 15px;
+  display:block;
+  margin-top: 2%;
+}
+.number a, #packages a {
+  color: #000;
+}
+
+iframe {
+  border: 2px solid #333;
+
+}
+
+.footer {
+  width:100%;
+  color: #fff;
+  margin-top: 10%;
+  font-family: 'Quicksand';
+}
+
+
+.left {
+  float:left;
+}
+
+.black, .black a {
+  color: #000;
+}
+
+.black a:hover {
+  color: #1190EB;
+}
+
+.margin {
+  margin-right: 5%;
+  border-radius: 10px;
+}
+
+p.detail {
+  margin: 5%;
+  line-height: 2.5em;
+}
+
+.team {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  float: left;
+  display: inline-block;
+}
+
+div.info {
+  margin-left: 20%!important;
+}
+
+.ex1 {
+  margin-bottom: 25px;
+}
+
+.ex {
+  margin-bottom: 50px;
+}
+
+.features div {
+  margin-left: 20px;
+}
+
+.features {
+  padding: 2%;
+  margin: 5%;
+  text-align: left;
+  background: #fff;
+  border-radius: 5px;
+  line-height: 2.0em;
+}
+
+.feature {
+  text-align: left;
+  font-weight: bold;
+}
+
+#contact {
+  padding-bottom: 0.5em;
+}
+
+.sign {
+  margin-top: 0.5%;
+}
+
+.sign .fa {
+  color: #E74C3C;
+}

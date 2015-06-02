@@ -304,7 +304,7 @@ p.detail {
   display: inline-block;
 }
 
-div.info {
+div.info, .name {
   margin-left: 20%!important;
 }
 
